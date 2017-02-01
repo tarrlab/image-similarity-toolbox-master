@@ -1,1 +1,6 @@
 *.mat filter=lfs diff=lfs merge=lfs -text
+imagenet-vgg-f.mat filter=lfs diff=lfs merge=lfs -text
+imagenet-vgg-m.mat filter=lfs diff=lfs merge=lfs -text
+imagenet-vgg-s.mat filter=lfs diff=lfs merge=lfs -text
+imagenet-vgg-verydeep-16.mat filter=lfs diff=lfs merge=lfs -text
+imagenet-vgg-verydeep-19.mat filter=lfs diff=lfs merge=lfs -text
