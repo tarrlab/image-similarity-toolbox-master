@@ -327,6 +327,7 @@ if compute_RDM
 		for i=1:n_imgs
 			RDM(i,i) = 0; % make sure diagnol is zero. some matlab functions complain if it isn't [eg squareform()]
 		end
+		RDM = squareform(RDM, 'tovector'); % convert to a pairwise distance vector; the form assumed by save_results_heatmap.m
 	else
 		for img = 1:n_imgs
 			fprintf('Computing dissimilarity matrix... %i%% done\n', round(100*RDM_ind/RDM_size));

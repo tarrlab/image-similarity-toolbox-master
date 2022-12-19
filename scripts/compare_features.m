@@ -4,7 +4,7 @@
 %     % xi_inds, yi_inds are vectors to be used for each image.
 %     % They contain indexes for each pixel at each pass.
 % 	if x1 >= x2
-% 		x1_inds = [1+(x1*.5 - x2*.5) : (x1*.5 + y2*.5)];
+% 		x1_inds = [1+(x1*.5 - x2*.5) : (x1*.5 + x2*.5)];
 % 		x2_inds = [1:x2];
 % 	else
 % 		x2_inds = [1+(x2*.5 - x1*.5) : (x2*.5 + x1*.5)];
@@ -52,7 +52,7 @@ if method == 1 % pixel
     % xi_inds, yi_inds are vectors to be used for each image.
     % They contain indexes for each pixel at each pass.
 	if x1 >= x2
-		x1_inds = [1+(x1*.5 - x2*.5) : (x1*.5 + y2*.5)];
+		x1_inds = [1+(x1*.5 - x2*.5) : (x1*.5 + x2*.5)];
 		x2_inds = [1:x2];
 	else
 		x2_inds = [1+(x2*.5 - x1*.5) : (x2*.5 + x1*.5)];

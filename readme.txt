@@ -1,3 +1,13 @@
+==============================================
+Image Similarity Toolbox
+==============================================
+
+Matlab toolbox for computing image similarities using a variety of computer vision algorithms.
+
+Written at Tarrlab by Darren Seibert and Daniel Leeds.
+
+-----------------------------------------------
+
 The img_sim() function computes feature vectors for images. It can
 optionally compute a dissimilarity matrix, categorize images (via
 clustering), create a dendrogram and heatmap representing the
@@ -11,6 +21,7 @@ daseibertuh@gmail.com
 
 v 1.0; February 4, 2012
 v 1.1; December 30, 2012
+v 1.2; December 18, 2022; small bugfixes; credit to Enrico Glerean and Emmanuele Tidoni for reporting these issues.
 
 =======================================
 Methods:

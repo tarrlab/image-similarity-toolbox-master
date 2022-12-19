@@ -1,5 +1,5 @@
 % assumes higher values in RDM = more distance
-RDM_s = squareform(RDM);
+RDM_s = squareform(RDM, 'tomatrix');
 RDM_s(n_imgs,:) = 0; % make sure the matrix is square
 correlation_back = RDM_s; % preserve data. correlation_back will be altered
 
