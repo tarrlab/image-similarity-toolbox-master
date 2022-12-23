@@ -6,6 +6,11 @@ Matlab toolbox for computing image similarities using a variety of computer visi
 
 Written at Tarrlab by Darren Seibert and Daniel Leeds.
 
+If you use the toolbox in published research, please consider citing our paper in which we
+first developed it:
+
+Daniel D. Leeds, Darren A. Seibert, John A. Pyles, Michael J. Tarr; Comparing visual representations across human fMRI and computational vision. Journal of Vision 2013;13(13):25. doi: https://doi.org/10.1167/13.13.25.
+
 -----------------------------------------------
 
 The img_sim() function computes feature vectors for images. It can
